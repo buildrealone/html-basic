@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0px;
+}
+
+table {
+  border-collapse: collapse; // * <table> 안의 틈을 제거!
+}
+
+td,
+th {
+  border: 1px solid black;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.cart-background {
+  width: 100%;
+  background-color: #c2d3de;
+  padding: 30px;
+}
+
+.cart-table {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.cart-table td,
+.cart-table th {
+  padding: 15px;
+  border: 1px solid #c2d3d3;
+  text-align: center;
+}
+
+/* .cart-table 안에 있는 2번째 요소들에 해당 스타일을 적용! */
+.cart-table th:nth-child(2) {
+  width: 400px;
+}

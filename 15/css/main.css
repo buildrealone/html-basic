@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0px;
+}
+
+table {
+  border-collapse: collapse; // * <table> 안의 틈을 제거!
+}
+
+td,
+th {
+  border: 1px solid black;
+}

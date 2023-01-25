@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - 기초모듈: #09 셀렉터를 이용해 CSS 코드 양 줄이기</title>
+    <link href="./css/main.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- <nav> = navigation bar ( as same as <div> ) -->
+    <!-- <section></section> ( as same as <div> ) -->
+    <!-- <footer></footer> ( as same as <div> ) -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="#" class="link">영화</a></li>
+            <li><a href="#" class="link">맛집</a></li>
+            <li><a href="#" class="link">IT</a></li>
+            <li><a href="#" class="link">컴퓨터</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="blog-content">
+            <div>
+                <img 
+                    src="./img/lion.png" 
+                    alt="lion" 
+                    class="blog-profile"
+                >
+                <div class="blog-name">
+                    <h4 style="margin: 8px;">아우리</h4>
+                    <p style="margin: 8px;">1시간 전</p>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+            <div style="margin-top: 10px;">
+                <h4>4k빔프로젝터 가성비최강으로 선택했어요</h4>
+                <p>
+                    4k빔프로젝터 가성비최강으로 선택했어요 날씨가날씨인지라 요즘 마음이 싱숭생숭한게 가을타는 사람이 아닌 봄을 타고있었어요... 
+                    하루하루 시간이 무의미하게 흘러가는거같고 재미있는걸 찾지못해 이리저리 헤메는사람처럼 즐거운걸 못찾고있...
+                </p>
+            </div>
+        </div>
+        <div class="blog-img">
+            <img 
+                src="./img/beam-projector.png" 
+                alt="beam-projector"
+                width="100%"
+                height="100%"
+            >
+        </div>
+    </div>
+</body>
+</html>
